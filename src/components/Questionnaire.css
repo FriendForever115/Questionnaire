@@ -1,0 +1,95 @@
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 32px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--fueled-red);
+    color: #fff;
+    padding: 10px;
+    height: 72px;
+    width: 100%;
+  }
+  
+  .navbar-left img {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .navbar-center {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .navbar-center input {
+    background-color: var(--fueled-red);
+    color: var(--fueled-white);
+    border: none;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .navbar-right button {
+    background: rgba(245, 245, 241, 0.3);
+    color: #fff;
+    padding: 8px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:32px;
+    width: 60%;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 60%;
+  }
+
+  .btn-white {
+    height: 40px;
+    width: 100%;
+    color: var(--fueled-red);
+    background-color: var(--fueled-white);
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .btn-white:hover {
+    background-color: rgb(230,230,230);
+    cursor: pointer;
+  }
+
+  .btn-red {
+    height: 40px;
+    width: 100%;
+    background-color: var(--fueled-red);
+    color: var(--fueled-white);
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+
+  .btn-red:hover {
+    background-color: #8E0000;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .content, .btns {
+        width: 90%;
+    }
+  }

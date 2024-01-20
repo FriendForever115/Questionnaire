@@ -1,0 +1,26 @@
+:root {
+  --main-font: 'GT Cinetype', sans-serif;
+  --fueled-red: #AE0000;
+  --fueled-white: #F5F5F1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Add more global styles */
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: lightgray;
+  font-size: 12px;
+}
+
+input:focus {
+  outline: none;
+}
+
+select:focus {
+  outline: none;
+}
